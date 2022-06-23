@@ -1,0 +1,113 @@
+.table-garage{
+    width:70%;
+    margin:auto;
+}
+.car-icon{
+    height:40px;
+    width:auto;
+}
+.car-icon2{
+    height:70px;
+    width:auto;
+}
+body{
+    background-color: #212529;
+}
+p,h1,h2,h3,label{
+    color: white;
+}
+#main-logo{
+    width: 400px;
+    height: auto;
+    margin: 20px;
+}
+.sep{
+    margin-top: 150px;
+}
+.text-footer{
+    color: #636363;
+}
+#line-footer{
+    height: 3px;
+    width: 95%;
+    background-color: #636363;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+form{
+    display:flex;
+    align-items:center;
+    flex-direction: column;
+}
+label,select,input,textarea{
+    height: 40px;
+    width: 500px;
+    margin: 10px 0px;
+    padding: 0px 0px;
+}
+textarea{
+    height: 150px;
+}
+input, select, textarea{
+    margin-left: 20px;
+}
+header{
+    background-color:#171a1d;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.head-titles{
+    width: 10%;
+    display: flex;
+    justify-content: space-around;
+    margin-right:50px;
+    font-size: 1.7em;
+}
+.Mya{
+    text-decoration: none;
+    color:white
+}
+.Mya:hover{
+    color: #636363;
+}
+.welcome-text{
+    text-align: center;
+    font-size: 2em;
+    padding: 0px 100px;
+}
+.head-auth{
+    display: flex;
+    flex-direction: row;
+    font-size: 1.5em;
+    margin-right: 20px;
+}
+.aLog{
+    color: #636363;
+}
+.aLog:hover{
+    color: #434242;
+}
+.card {
+    margin: 0 auto; /* Added */
+    float: none; /* Added */
+    margin-bottom: 10px; /* Added */
+}
+.text-black{
+    color: #171a1d;
+}
+li{
+    margin-left: 30px;
+}
+.invisible{
+    display: none;
+}
+.task-line{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 10px 0px;
+}
